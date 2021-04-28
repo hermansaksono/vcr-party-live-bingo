@@ -29,38 +29,8 @@ const fillCells = () => {
 
 
 // DATA
-
-// The numbers of boxes in the Bingo card that can be filled.
+// The number of boxes in the Bingo card that can be filled.
 let NUM_ENTRIES = 24;
-
-
-// The entries for the Bingo. May be modified but must be 
-// at least 24 entries.
-let bingoEntries = new Array(
-	"Animals Giving Birth", 
-	"Clowns",
-	"Exercise Video",
-	"Unnecessary Nudity",
-	"Rap",
-	"Creepy children show host",
-	"Digestive system",
-	"Car dealership",
-	"Furniture store",
-	"Sergery",
-	"People Giving Birth",
-	"Skateboarding",
-	"Medical Jingle",
-	"Puppets",
-	"Obsolete Technology",
-	"Off-Color Food",
-	"Local News",
-	"Dating",
-	"Bad Decision",
-	"Human Sexuality",
-	"Synthesizer Music",
-	"Flying Windows",
-	"Organized Religion",
-	"Inappropriate comments");
 
 // DO NOT MODIFY. This is an array of predefined Bingo boxes ids.
 // Note that this 
