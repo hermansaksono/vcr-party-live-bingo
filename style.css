@@ -9,9 +9,14 @@
 }
 
 .document h1 {
-	margin: 0in 0 0.25in 0;
+	margin: 0in 0 0.05in 0;
 	font-family: "Times New Roman", serif;
 	text-align: center;
+}
+
+.document .instruction {
+	text-align: center;
+	font-size: 11pt;
 }
 
 .bingoCard {
@@ -37,7 +42,7 @@
 }
 
 .bingoProfile {
-	width: 6.5in;
+	width: 3.20in;
 	margin: 0in 0in 0.25in 0in;
 	border-radius: 0;
 	border: none;
@@ -53,13 +58,16 @@
 	padding: 0.25em 0 1.0em 0;
 }
 
-/*
 @media print {
+	.instruction {
+		display: none;
+	}
+/*
 	.bingoCard tr td.star marquee {
 		display: none;
 	}
 	.bingoCard tr td.star:after {
 		content: "\2605";
 	}
-}
 */
+}
