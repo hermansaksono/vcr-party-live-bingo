@@ -1,0 +1,63 @@
+.document {
+	width: 8.5in;
+	height: 9in;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.document main {
+	margin: 0.75in 1in 1in 1in;
+}
+
+.document h1 {
+	margin: 0in 0 0.25in 0;
+	font-family: "Times New Roman", serif;
+	text-align: center;
+}
+
+.bingoCard {
+	border: 2pt solid #000;
+	border-collapse: collapse;
+    table-layout:fixed;
+	font-size: 11pt;
+}
+
+.bingoCard tr td {
+	width: 1.25in !important;
+	height: 1.25in;
+	padding: 0.25em;
+	border: 2pt solid #000;
+	text-align: center;
+}
+
+.bingoCard tr td.star {
+	font-size: 32pt !important;
+	width: 1.5in !important;
+	padding: 0;
+	color: maroon;
+}
+
+.bingoProfile {
+	width: 6.5in;
+	margin: 0in 0in 0.25in 0in;
+	border-radius: 0;
+	border: none;
+	border-bottom: 1px solid #000;
+	font-size: 11pt;
+	padding: 0.75em 0;
+}
+
+.bingoProfile::placeholder {
+	color: #111;
+	text-transform: uppercase;
+	font-size: 8pt;
+	padding: 0.25em 0 1.0em 0;
+}
+
+@media print {
+	.bingoCard tr td.star marquee {
+		display: none;
+	}
+	.bingoCard tr td.star:after {
+		content: "\2605";
+	}
+}
