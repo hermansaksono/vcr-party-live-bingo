@@ -24,4 +24,4 @@ let bingoEntries = new Array(
 	"Synthesizer Music",
 	"Flying Windows",
 	"Organized Religion",
-	"Early days CGI");
+	"Early day CGI");

@@ -32,6 +32,7 @@
 	padding: 0.25em;
 	border: 2pt solid #000;
 	text-align: center;
+	cursor: pointer;
 }
 
 .bingoCard tr td.star {
@@ -39,6 +40,11 @@
 	width: 1.5in !important;
 	padding: 0;
 	color: maroon;
+	cursor: default;
+}
+
+.bingoCard tr td.marked {
+	background: url("circle.svg") center;
 }
 
 .bingoProfile {

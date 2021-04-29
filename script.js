@@ -30,12 +30,29 @@ const fillCells = (entriesArray) => {
 	}
 }
 
+const initCellEvents = () => {
+	for (i = 0; i < NUM_ENTRIES; i++) {
+		let td = document.querySelector(cells[i]);
+		td.onclick = onClickCell;
+	}
+}
+
+const onClickCell = (event) => {
+	var target = event.target;
+	if (target.classList.contains(MARKED_CLASS)) {
+		target.classList.remove("marked");
+	} else {
+		target.classList.add("marked");
+	}
+}
+
 /*
 init : void => void
 Initializes the Bingo card.
 INVARIANT: The bingoEntries array (in entries.js) must be at least 24 entries.
 */
 const init = () => {
+	initCellEvents();
 	fillCells(bingoEntries);
 }
 
@@ -43,6 +60,7 @@ const init = () => {
 // DATA
 // The number of boxes in the Bingo card that can be filled.
 let NUM_ENTRIES = 24;
+let MARKED_CLASS = "marked";
 
 // DO NOT MODIFY. This is an array of predefined Bingo boxes ids.
 // Note that #cell33 is not included because it contains the star. 
