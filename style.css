@@ -44,7 +44,7 @@
 }
 
 .bingoCard tr td.marked {
-	background: url("circle.svg") center;
+	background: url("circle.svg") center no-repeat;
 }
 
 .bingoProfile {
@@ -76,4 +76,47 @@
 		content: "\2605";
 	}
 */
+}
+
+@media only screen and (max-device-width: 812px) {
+	.document {
+		width: auto;
+		height: auto;
+	}
+
+	.document main {
+		margin: 0.5em;
+	}
+
+	.document h1 {
+		font-size: 3em !important;
+	}
+
+	.bingoCard {
+		font-size: 1.75em;
+	}
+	
+	.bingoCard tr td {
+		width: 200px !important;
+		height: 200px;
+		padding: 0.25em;
+	}
+
+	.bingoCard tr td.star {
+		font-size: 3em !important;
+	}
+
+	.bingoProfile {
+		width: 470px;
+		height: 50px;
+		font-size: 2em;
+		padding: 20px 0;
+	}
+
+	.bingoProfile::placeholder {
+		color: #111;
+		text-transform: uppercase;
+		font-size: 8pt;
+		padding: 0.25em 0 1.0em 0;
+}
 }
