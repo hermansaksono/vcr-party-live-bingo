@@ -11,7 +11,7 @@ let bingoEntries = new Array(
 	"Car dealership",
 	"Furniture store",
 	"Sergery",
-	"People Giving Birth",
+	"Humans Giving Birth",
 	"Skateboarding",
 	"Medical Jingle",
 	"Puppets",
@@ -24,4 +24,4 @@ let bingoEntries = new Array(
 	"Synthesizer Music",
 	"Flying Windows",
 	"Organized Religion",
-	"Early day CGI");
+	"Crude CGI");

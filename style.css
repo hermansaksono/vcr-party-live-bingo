@@ -68,14 +68,17 @@
 	.instruction {
 		display: none;
 	}
-/*
+	/* I initially made the star centered when printed using these CSS below.
+	/* But I think its funnier if the star is not centered when printed.
+	/* You can still make the star centered, but you have to press the print
+	/* button at the right time.
 	.bingoCard tr td.star marquee {
 		display: none;
 	}
 	.bingoCard tr td.star:after {
 		content: "\2605";
 	}
-*/
+	*/
 }
 
 @media only screen and (max-device-width: 812px) {
@@ -118,5 +121,5 @@
 		text-transform: uppercase;
 		font-size: 8pt;
 		padding: 0.25em 0 1.0em 0;
-}
+	}
 }
