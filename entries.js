@@ -12,7 +12,7 @@ let bingoEntries = new Array(
 	"Furniture store",
 	"Sergery",
 	"Humans Giving Birth",
-	"Skateboarding",
+	"Faded Celebrity",
 	"Medical Jingle",
 	"Puppets",
 	"Obsolete Technology",
