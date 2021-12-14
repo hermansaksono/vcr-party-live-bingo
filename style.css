@@ -72,13 +72,14 @@
 	/* But I think its funnier if the star is not centered when printed.
 	/* You can still make the star centered, but you have to press the print
 	/* button at the right time.
+	/* Note (2021-12-14): removed the marquee when printing.
+	*/
 	.bingoCard tr td.star marquee {
 		display: none;
 	}
 	.bingoCard tr td.star:after {
 		content: "\2605";
 	}
-	*/
 }
 
 @media only screen and (max-device-width: 812px) {
