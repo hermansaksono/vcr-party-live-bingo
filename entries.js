@@ -1,7 +1,7 @@
 // The entries for the Bingo. May be modified but must be 
 // at least 24 entries.
 let bingoEntries = new Array(
-	"Animals Giving Birth", 
+	"Costumes",
 	"Clowns",
 	"Exercise Video",
 	"Unwarranted Nudity",
@@ -11,14 +11,14 @@ let bingoEntries = new Array(
 	"Car dealership",
 	"Furniture store",
 	"Sergery",
-	"Humans Giving Birth",
+	"Human/Animal Giving Birth",
 	"Faded Celebrity",
-	"Medical Jingle",
+	"Enthusiastic Jingle on Uncomfortable Topics",
 	"Puppets",
 	"Obsolete Technology",
 	"Off-Color Food",
 	"Local News",
-	"Dating",
+	"Unusually Specific",
 	"Instructional Video",
 	"Human/Animal Sexuality",
 	"Synthesizer Music",
